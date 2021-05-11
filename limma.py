@@ -14,9 +14,9 @@ from rpy2.robjects.conversion import localconverter
 from rpy2.robjects.packages import importr
 from statsmodels.stats.multitest import multipletests
 
-data =  pd.read_excel('expression_file.xlsx')
-data = data.set_index('ID')
-design = pd.read_excel('limma_design_file.xlsx')
+data =  pd.read_excel('expression_file.xlsx') #replace your own data file
+data = data.set_index('ID') #replace 'ID' with your own annotation if necessary
+design = pd.read_excel('limma_design_file.xlsx') #replace with your own design file
 
 #Import R libraries
 base = importr('base')
