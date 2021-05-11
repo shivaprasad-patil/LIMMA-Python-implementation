@@ -1,7 +1,8 @@
 # LIMMA-Python-implementation
 This script is a python implementation of the Linear Models for Microarray Data (limma) package in R that helps perform differential gene expression analysis. Although limma was developed on microarray data, it's use is not limited to microarray data.  
 
-INPUT - 2 files 
+INPUT - 2 files.
+
 File 1 -- Expression data in a matrix, where each column represents an experiment or sample ID and the row represents a gene or probe.
 File 2 -- Desgin matrix, where one column represents a status of the data (example:normal, cancer etc.) and other experiment or sample ID.
 
