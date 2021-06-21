@@ -11,7 +11,9 @@ Have a look at the design file and make sure you have the right format. The 'Tar
 Ones the files are setup, download the required packages. The script imports them to python, to do so specify the path where the  packages are downloaded.
 
 Packages to download:
+
 Python --> NumPy and Pandas.
+
 R --> rpy2 -- helps import packages from R to Python, limma -- to run the analysis and writexl -- to export the output to an excel file.
 
 If you run into any trouble do let me know.
